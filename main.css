@@ -1,13 +1,22 @@
 body {
-  background: pink;
+  background: RGBA(214, 144, 160, 1.00);
+}
+
+p {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bold;
+  font-family: helvetica;
 }
 
 .clock-face {
+  background: url('http://www.bianoti.com/wp-content/uploads/2015/11/Pink-Glitter-Backgroundnbspfond-ecran-hd1.jpg');
+  background-size: cover;
   width: 35%;
   margin: 0 auto;
   height: 50vh;
-  /* background: red; */
-  border: 5px solid black;
+  /*background: white;*/
+  border: 10px solid black;
   border-radius: 50%;
   padding: 0.8rem;
   position: relative;
@@ -23,4 +32,14 @@ body {
   transform: rotate(90deg);
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.5, 0.5, 1)
+}
+
+.dot {
+  top: 50%;
+  left: 49%;
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
 }
